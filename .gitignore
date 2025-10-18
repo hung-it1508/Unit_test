@@ -1,0 +1,33 @@
+# Thư mục build (tự động tạo bởi CMake)
+build/
+build_*/
+bin/
+lib/
+
+# File sinh ra bởi CMake
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+CTestTestfile.cmake
+Makefile
+
+# File biên dịch
+*.exe
+*.dll
+*.a
+*.lib
+*.o
+*.obj
+*.pdb
+
+# Log, temp
+*.log
+*.tmp
+
+# File của VS Code / IDE
+.vscode/
+.idea/
+
+# File hệ điều hành
+.DS_Store
+Thumbs.db
